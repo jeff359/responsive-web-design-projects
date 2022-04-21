@@ -1,0 +1,23 @@
+#main-box{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+   grid-template-areas:
+      "nav main";
+}
+#main-doc{
+  
+  
+}
+#navbar{
+grid-area: nav;
+ position:fixed;
+  
+  
+}
+@media(min-width:1080px){
+  #navbar{
+    
+    
+  }
+}
